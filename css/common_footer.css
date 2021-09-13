@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/NanumBarunGothicLight.eot);
+  src: local('Nanum Barun Gothic Light'),
+       local('NanumBarunGothicLight'),
+       url(../font/NanumBarunGothicLight.eot?#iefix) format('embedded-opentype'),
+       url(../font/NanumBarunGothicLight.woff2) format('woff2'),
+       url(../font/NanumBarunGothicLight.woff) format('woff'),
+       url(../font/NanumBarunGothicLight.ttf) format('truetype');
+}
+
+@font-face {
+    font-family:'rocket';
+    src:url(../font/rocket.otf);
+    src:url(../font/rocket.woff);
+}
+
+@font-face {
+    font-family:'oldPhoto';
+    src:url(../font/old_photo_studio.otf);
+    src:url(../font/old_photo_studio.woff);
+}
+
+* {margin:0; padding:0;}
+
+a{
+    display:block;
+    text-decoration: none;
+    color:#000;
+    
+}
+li{
+    list-style: none;
+}
+span {
+    display:block;
+}
+img {
+    width:100%;
+}
+body,html {
+    font-family: 'Nanum Barun Gothic';
+    margin:0;
+}
+
+/*footer*/
+
+
+footer {
+    width:100%;
+    height:500px;
+    background-color:#676767;
+}
+
+footer .f_wrap  {
+    
+    width:80%;
+    height:280px;
+    margin:0 auto;
+    padding-top:110px;
+    display:flex;
+    justify-content: space-between;
+    
+    
+}
+footer .f_wrap div {
+    width:500px;
+    color:#fff;
+    
+}
+footer .f_wrap .f1 {
+    width:250px;
+}
+footer .f_wrap .f2 {
+    margin-left:-200px;
+}
+footer .f_wrap .f3 {
+    width:350px;
+}
+
+footer .f_wrap .web {
+    width:230px;
+}
+footer .f_wrap .web ul {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    
+}
+footer .f_wrap .web a{
+    color:#fff;
+}
+
+footer .f_wrap .logo {
+    width:200px;
+}
+footer .f_wrap .f2 {
+  display:flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+    
+}
+
+footer .f_wrap .f3 .costomer_center {
+    padding-top:185px;
+}
+footer .f_wrap div div .title {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
