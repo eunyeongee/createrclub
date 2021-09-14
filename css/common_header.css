@@ -105,13 +105,12 @@ header .h_wrap nav ul li .sub:last-child li{
 header .h_wrap nav ul li .sub:first-child li{
     margin-top:none;
 }
-header .h_wrap nav ul li:hover .sub{
-     display:block;
-}
 
-/*header .h_wrap nav ul li:hover header {
-    background-color:#fff;
+/*header .h_wrap nav ul li:hover .sub{
+     display:block;
 }*/
+
+
 header .h_wrap nav ul li .sub li:hover a {
     color:#ffca00;
 }

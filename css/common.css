@@ -80,6 +80,7 @@ body,html {
     min-height:30px;
     padding:0 0 15px 30px;
     position:relative;
+    transition: all .35s ease-in-out;
 }
 
 .history-tl-container ul.tl li:last-child{ border-left:0;}
@@ -96,6 +97,7 @@ body,html {
     border-radius: 50%;
     background: #000;
     opacity: 0.2;
+    transition: all .2s ease-in-out;
 
 }
 
@@ -111,11 +113,27 @@ body,html {
    width: 1.1rem;
    height: 1.1rem;
    opacity: 1;
-   transition: all 0.5s ease-in-out;
+   transition: all .2s ease-in-out;
 }
 
+
+/*글씨 효과*/
 .history-tl-container ul.tl li .item-title{
+   opacity: 0.2;
+   transition: all .2s ease-in-out;
 }
+
+.history-tl-container ul.tl li .item-title:hover {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+}
+
+.history-tl-container ul.tl li .item-title.active{
+    opacity: 1;
+}
+/*글씨 효과*/
+
+
 .history-tl-container ul.tl li .item-detail{
     color:rgba(0,0,0,0.5);
     font-size:12px;
@@ -168,19 +186,18 @@ body,html {
     font-family:'rocket';
     font-size:2em;
 }
-.section_wrap .info .ex p{
+.section_wrap .info .ex{
     line-height: 1.5;
     font-size:1.1em;
+    letter-spacing: 1px;
 }
 
 .section_wrap .info .line {
     
     display:inline;
-    height:30px;
-    font-size:1.2em;
+    font-size:1.15em;
     background-color:#000;
     color:#ffca00;
-    line-height: 30px;
     padding:0 5px;
 }
 
