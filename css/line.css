@@ -1,0 +1,9 @@
+/*라인그리기 id*/
+
+.line_text {position: relative; display:inline;}
+
+.line_text:after {position:absolute; content: ""; width:0; height:70%; bottom:0; left:0; background-color:#ffca00;  z-index: -1; opacity: 0.7; transition:width 0.75s;}
+
+.line_text.active:after {width:100%;}
+
+/*라인그리기 id*/
