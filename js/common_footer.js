@@ -1,6 +1,8 @@
 $(function(){
     
     var topBtn = $('#top');
+    
+    topBtn.hide();
 
     
     //스크롤 이동시 top버튼 작동코드
