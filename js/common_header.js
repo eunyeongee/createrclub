@@ -1,21 +1,24 @@
 $(function () {
     
-    var menu = $('header .h_wrap nav > ul > li');
+    //var menu = $('header .h_wrap nav > ul > li');
+    //var submenu = $('header .h_wrap nav > ul > li > .sub');
+    
+    /*submenu.hide();
 
     menu.hover(
         
         function () {
             
-            $(this).children('.sub').stop().slideDown(350);
-            $(this).siblings().children('.sub').stop().slideUp();
+            menu.children('.sub').stop().fadeIn(350);
+            menu.siblings().children('.sub').stop().slideUp();
             
         },
 
         function () {
             
-            $(this).children('.sub').stop().slideUp(350);
+            menu.children('.sub').stop().fadeOut(350);
 
         }
-    );
+    );*/
 
 });
