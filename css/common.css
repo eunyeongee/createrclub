@@ -23,7 +23,7 @@
     src:url(../font/old_photo_studio.woff);
 }
 
-* {margin:0; padding:0;}
+* {margin:0; padding:0; }
 
 a{
     display:block;
@@ -51,11 +51,8 @@ body,html {
 }
 
 .follow {
-    width:15%;
-    max-width:190px;
-    height:300px;
     font-family: 'rocket';
-    font-size:24px;
+    font-size:1.5em;
     z-index:100;
     position:fixed;
     top:40%;
@@ -159,7 +156,7 @@ body,html {
     background-color:#ffca00;
 } 
 .section_wrap {
-    width:70%;
+    width:75%;
     max-width:1400px;
     height:100%;
     margin:0 auto;
@@ -182,6 +179,8 @@ body,html {
 .section_wrap .info .number {
     width:40px;
 }
+
+
 .section_wrap .info .txt .title{
     font-family:'rocket';
     font-size:2em;
@@ -201,17 +200,22 @@ body,html {
     padding:0 5px;
 }
 
-
+.section_wrap .info .btn_wrap {
+    display:flex;
+}
 
 .section_wrap .info .more {
-    width:150px;
-    height:35px;
-    border:2px solid #000;
+    width:150px;    
     text-align: center;
-    line-height: 35px;
-    margin-top:0px;
     font-size:18px;
+    
+    
 }
+
+.section_wrap .info .more a{ display:block; width:100%;
+    border:2px solid #000; height:35px; line-height: 35px; box-sizing: border-box; }
+
+
 
 /*hover*/
 
@@ -220,7 +224,8 @@ body,html {
     color:#ffca00;
 } 
 .section .data{
-    width:910px;
+    width:60%;
+    max-width:800px;
     
 }
 
@@ -230,17 +235,30 @@ body,html {
     height:460px;
 }
 .section .data ul li {
+    display:flex;
+    align-items: center;
+    width:33.3%;
+    max-width:250px;
     border-radius: 20px;
     margin:0 10px;
     padding: 0 10px;
     height:100%;
     background-color:rgba(255,255,255,0.5);
 }
-.section .data ul li div div {
-    width:250px;
+
+.section .data ul li div {
     margin:0 auto;
+}
+.section .data ul li div div {
+    
+   
     text-align: center;
-    padding-top:120px;
+    
+    
+}
+
+.section .place ul li div div {
+    margin:0 auto;
     
 }
 .section .data ul li .place_content div .tit {
@@ -270,43 +288,10 @@ body,html {
     background-color:#fff;
 } 
 
-.section_where .where_wrap .info2 {
-    width:435px; 
-    
-}
-.section_where .where_wrap .info2 .number2 {
-    width:42px;
-}
+
+.section_where .where_wrap .info  .btn_wrap .more{ margin-right:10px;}
 
 
-
-.section_where .where_wrap .info .txt .ex .none {
-}
-
-.section_where .where_wrap .info .txt .ex .space{
-    float:left;
-    margin:-5px 0 0 10px;
-}
-
-
-.section_where .where_wrap .info .map {
-    width:150px;
-    height:35px;
-    border:2px solid #000;
-    text-align: center;
-    line-height: 35px;
-    margin-top:0px;
-    font-size:18px;
-}
-
-.section_where .where_wrap .info .map:hover a{
-    background-color:#000;
-    color:#ffca00;
-} 
-.section_where .place{
-    width:900px;
-    
-}
 
 .section_where .place ul {
     display:flex;
@@ -316,6 +301,7 @@ body,html {
 .section_where .place ul li {
    
     background-color:rgba(0,0,0,0.3);
+    
 }
 .section_where .place ul li div div {
     
@@ -346,71 +332,48 @@ body,html {
     background-color:#00c284;
 } 
 
-.section_what .what_wrap .whereIs {
-    opacity: 0;
-    width:100px;
-    height:150px;
-    margin:auto 0;
+
+
+.section .place{
+    width:60%;
+    max-width:800px;
     
 }
 
-.section_what .what_wrap .info .number {
-    width:42px;
-}
-
-
-/*
-.section_what .what_wrap .info2 .txt2 .ex2 .none {
-}
-
-.section_what .what_wrap .info2 .txt2 .ex2 .space{
-    float:left;
-    margin:-5px 0 0 10px;
-}*/
-
-
-.section_what .what_wrap .info .map {
-    width:150px;
-    height:35px;
-    border:2px solid #000;
-    text-align: center;
-    line-height: 35px;
-    margin-top:0px;
-    font-size:18px;
-}
-
-.section_what .what_wrap .info .map:hover a{
-    background-color:#000;
-    color:#ffca00;
-} 
-.section_what .place{
-    width:65%;
-    
-}
-
-.section_what .place ul {
+.section .place ul {
     display:flex;
     justify-content: space-around;
     height:460px;
 }
-.section_what .place ul li {
-    padding:0 10px;
+
+.section .place ul li {
+    width:33.3%;
+    display:flex;
+    align-items: center;    
+    max-width:250px;
+    border-radius: 20px;
+    padding:0 15px;
     margin:0 10px;
     height:100%;
+}
+
+
+.section_what .place ul li {
+   
     background-color:rgba(255,255,255,0.5);
+    
 }
 
 
 /*what_place*/
 
 .section.section_what .place ul li  {
-    padding-bottom:20px;
-    border-radius: 20px;
+    
 }
 
 
 .section .place ul li .place_content > div {
-    width:250px;
+
     text-align: center;
 
     
@@ -450,6 +413,7 @@ body,html {
 }
 
 .section_what .place ul li .place_content div span {
+    height:130px;
     line-height: 28px;
     margin-top:10px;
 }
@@ -472,34 +436,12 @@ body,html {
 } 
 
 
-.section_how .how_wrap .info {
-    width:435px;  
-}
 
 
-.section_how .how_wrap .info .number {
-    width:42px;
-}
-
-
-
-.section_how .how_wrap .info .more {
-    width:150px;
-    height:35px;
-    border:2px solid #000;
-    text-align: center;
-    line-height: 35px;
-    margin-top:0px;
-    font-size:18px;
-}
-.section_how .how_wrap .info .more:hover a{
-    background-color:#000;
-    color:#ffca00;
-} 
-.section_how .data{
+/*.section_how .data{
     width:910px;
     
-}
+}*/
 
 .section_how .data ul {
     display:flex;
@@ -507,11 +449,16 @@ body,html {
     height:460px;
 }
 
+.section_how .data ul li{
+    display:flex;
+    align-items: center;
+    
+}
 .section_how .data ul li div {
-    width:230px;
+    
     margin:0 auto;
-    padding-top:25px;
-    filter: drop-shadow(5px 5px 8px rgba(0,0,0,0.2));
+    
+    
     
 }
 
@@ -521,37 +468,22 @@ body,html {
     line-height: 28px;
     text-align: center;
 }
-.section_how .data ul li .c3 {
-    width:230px;
-    height:390px;
-    margin:auto auto;
-    padding-top:100px;
-    box-sizing: border-box;
-}
+
 .section_how .data ul li .c3 i {
     display:block;
-    width:100px;
+    max-width:100px;
     margin:0 auto;
 }
 
 
-/*ul{ 
-background-color:transparent}*/
 
 /*section_how_end*/
 
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width:1410px) {
+    
+    .pc_only {display:none}
+    
+}
 
 
 

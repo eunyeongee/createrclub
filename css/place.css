@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/NanumBarunGothicLight.eot);
+  src: local('Nanum Barun Gothic Light'),
+       local('NanumBarunGothicLight'),
+       url(../font/NanumBarunGothicLight.eot?#iefix) format('embedded-opentype'),
+       url(../font/NanumBarunGothicLight.woff2) format('woff2'),
+       url(../font/NanumBarunGothicLight.woff) format('woff'),
+       url(../font/NanumBarunGothicLight.ttf) format('truetype');
+}
+
+@font-face {
+    font-family:'rocket';
+    src:url(../font/rocket.otf);
+    src:url(../font/rocket.woff);
+}
+
+@font-face {
+    font-family:'oldPhoto';
+    src:url(../font/old_photo_studio.otf);
+    src:url(../font/old_photo_studio.woff);
+}
+
+* {margin:0; padding:0; }
+
+a{
+    display:block;
+    text-decoration: none;
+    color:#000;
+    
+}
+li{
+    list-style: none;
+}
+span {
+    display:block;
+}
+img {
+    width:100%;
+}
+body,html {
+    font-family: 'Nanum Barun Gothic';
+    margin:0;
+}
+/*header*/
+
+.wrap {
+    
+    width:75%;
+    max-width:1400px;
+    margin:0 auto;
+    padding-bottom:180px;
+}
+
+.section_wrap .section_place { padding-top:10rem; }
+
+.section_wrap .section_place.place_gangnam { padding-top:7rem; }
+
+.section_wrap .section_place .contents .txt {  color:#999; }
+
+.section_wrap .section_place .contents .tit { margin-top:1rem; font-family:'rocket'; font-size:2em; font-weight: normal; }
+
+.section_wrap .section_place .box {margin-top:1rem;}
+
+.section_wrap .section_place .box .box_wrap .i_wrap{margin-top:2rem;}
+
+.section_wrap .section_place .box .box_txt.txt01 {text-align: center;}
+
+.section_wrap .section_place .box .box_txt.txt01 .tit { font-family:'rocket'; font-size:1.5em; font-weight: normal; }
+
+.section_wrap .section_place .box .box_txt.txt01 p { width:60%; margin:0 auto;  line-height:2; margin-top:1rem; }
+
+.section_wrap .section_place .box .box_txt { margin-top:2rem; font-size:1.1em;}
+
+
+.section_wrap .section_place .box .box_wrap .box_txt .icon {font-size:20px;  }
+
+.section_wrap .section_place .box .box_wrap .box_txt a {margin-left: 1rem; display:inline; }
+
+.section_wrap .section_place .box .box_wrap .box_txt a:hover { border-bottom:1px #999 solid; }
+
+/*.section_place {width:100%;}
+
+.section_place .box {width:100%;}
+
+.section_place .box .box-wrap { width:100%; }*/
+
+.section_place .box .intro_img_wrap { width:100%; display:flex; justify-content: space-between; }
+
+.section_place .box .intro_img_wrap .i_wrap { width:49%; }
+
+

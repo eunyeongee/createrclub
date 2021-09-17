@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../font/NanumBarunGothicLight.eot);
+  src: local('Nanum Barun Gothic Light'),
+       local('NanumBarunGothicLight'),
+       url(../font/NanumBarunGothicLight.eot?#iefix) format('embedded-opentype'),
+       url(../font/NanumBarunGothicLight.woff2) format('woff2'),
+       url(../font/NanumBarunGothicLight.woff) format('woff'),
+       url(../font/NanumBarunGothicLight.ttf) format('truetype');
+}
+
+@font-face {
+    font-family:'rocket';
+    src:url(../font/rocket.otf);
+    src:url(../font/rocket.woff);
+}
+
+@font-face {
+    font-family:'oldPhoto';
+    src:url(../font/old_photo_studio.otf);
+    src:url(../font/old_photo_studio.woff);
+}
+
+* {margin:0; padding:0; }
+
+a{
+    display:block;
+    text-decoration: none;
+    color:#000;
+    
+}
+li{
+    list-style: none;
+}
+span {
+    display:block;
+}
+img {
+    width:100%;
+}
+body,html {
+    font-family: 'Nanum Barun Gothic';
+    margin:0;
+}
+/*header*/
+
+.wrap {
+    
+    width:75%;
+    max-width:1400px;
+    margin:0 auto;
+    padding-bottom:180px;
+}
+
+.tit {font-family:'rocket'; font-weight: normal; font-size: 2em;}
+
+
+.wrap .intro_wrap { width:100%; padding-top:10rem; display:flex; }
+
+.wrap .intro_wrap:first-child { /*padding-top:8rem;*/ }
+
+.wrap .intro_wrap .i_wrap {width:50%;}
+
+.wrap .intro_wrap .intro_txt {width:50%; display:flex; align-items: center; }
+
+.wrap .intro_wrap .intro_txt .content_wrap {padding:0 50px;}
+
+.wrap .intro_wrap .intro_txt .txt {margin-top:40px; line-height: 1.5;}
+
+.wrap .intro_wrap .merit { width:100%; display:flex; justify-content: space-between; align-items: center}
+
+.wrap .intro_wrap .merit .merit_list {position:relative; width:33.3%; text-align: center; padding:20px;}
+
+.wrap .intro_wrap .merit .merit_list .icon_wrap { font-size:55px;}
+
+.wrap .intro_wrap .merit .merit_list:before { position:absolute; content: ""; width:1px; height:100%; background:rgba(0 0 0 / 20%); top:0; left:0; }
+
+.wrap .intro_wrap .merit .merit_list:first-child:before {display:none; }
+
+.wrap .intro_wrap .merit .merit_list .merit_txt{margin-top:20px;}
+
+.wrap .intro_wrap.intro03 { display:inherit; width:100%; }
+
+.wrap .intro_wrap.intro03 .intro_txt {  width:100%;  display:inherit; text-align: center }
+
+.wrap .intro_wrap.intro03 .intro_txt .tit { }
+
+.wrap .intro_wrap.intro03 .i_wrap {width:100%;}
+
+.wrap .intro_wrap.intro03 .i_wrap img{display:block; width:100%;}
+
+.wrap .intro_wrap.intro03 .group {width:100%; display:flex; justify-content:space-between; margin-top:40px; }
+
+.wrap .intro_wrap.intro03 .group .group_list { position:relative; margin:0 10px; border-radius: 20px; overflow: hidden;}
+
+.wrap .intro_wrap.intro03 .group .group_list .group_txt {position:absolute; width:100%; height: 100%; padding:1rem; top:0; left:0; color:#fff; background:rgba(0 0 0 / 20%); box-sizing: border-box; }
+
+.wrap .intro_wrap.intro03 .group .group_list .group_paragraph {margin-top:20px;}
+
+.grey_color {color:#999}
+
