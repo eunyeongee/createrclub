@@ -81,23 +81,33 @@ body,html {
 
 .log_wrap .sns_login { margin-top:2rem; width:100%; border-bottom:1px #ddd solid; padding-bottom:1.5rem;}
 
-.log_wrap .sns_login .button_wrap { margin:0 auto; }
+.log_wrap .sns_login .button_wrap { margin:0 auto;  }
 
 .log_wrap .sns_login .button_wrap .sns_btn { width:100%; height:40px; border:1px #999 solid; margin-top:1rem; }
 
-.log_wrap .sns_login .button_wrap .sns_btn a{ padding-left:4rem; line-height:40px; position:relative; }
+.log_wrap .sns_login .button_wrap .sns_btn:hover { border-color:#000; }
 
-.log_wrap .sns_login .button_wrap .sns_btn a:before {font-family: xeicon; position:absolute; left:1rem; font-size:1.2em; }
+.log_wrap .sns_login .button_wrap .sns_btn a{ padding-left:4rem; line-height:40px; position:relative; color:#9e9e9e; }
 
-.log_wrap .sns_login .button_wrap .facebook_btn a:before {content:"\ebd3"; color:#3b5998; }
+.log_wrap .sns_login .button_wrap .sns_btn a:hover {color:#000;}
 
-.log_wrap .sns_login .button_wrap .naver_btn a:before {content:"\ebf9"; color:#2db400; }
+.log_wrap .sns_login .button_wrap .sns_btn a::before { font-family: xeicon; position:absolute; left:1rem; font-size:1.2em; color:#9e9e9e; }
 
-.log_wrap .sns_login .button_wrap .kakao_btn a:before {content:"\ebee"; color:#3b1e08;  }
+.log_wrap .sns_login .button_wrap .facebook_btn a:before{content:"\ebd3";}
+
+.log_wrap .sns_login .button_wrap .facebook_btn a:hover:before { color:#3b5998; }
+
+.log_wrap .sns_login .button_wrap .naver_btn a:before {content:"\ebf9";}
+
+.log_wrap .sns_login .button_wrap .naver_btn a:hover:before {color:#2db400; }
+
+.log_wrap .sns_login .button_wrap .kakao_btn a:before {content:"\ebee";}
+
+.log_wrap .sns_login .button_wrap .kakao_btn a:hover:before {color:#3b1e08;  }
 
 .log_wrap .sns_login .button_wrap .sns_btn:first-child { margin-top:0; }
 
-.log_wrap .sns_login .button_wrap .sns_btn .txt {position:relative; }
+.log_wrap .sns_login .button_wrap .sns_btn .txt { position:relative; }
 
 .log_wrap .sns_login .button_wrap .sns_btn .txt:after { content:""; position:absolute; width:1px; height:22px; top:50%; left:-1rem; transform: translateY(-50%); background: #ddd; }
 
