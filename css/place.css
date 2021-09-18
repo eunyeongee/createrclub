@@ -51,12 +51,13 @@ body,html {
     width:75%;
     max-width:1400px;
     margin:0 auto;
-    padding-bottom:180px;
+    padding-top:10rem;
+    padding-bottom:8rem;
 }
 
-.section_wrap .section_place { padding-top:10rem; }
+.section_wrap .section_place:first-child { padding-top:0; }
 
-.section_wrap .section_place.place_gangnam { padding-top:7rem; }
+.section_wrap .section_place { padding-top:7rem; }
 
 .section_wrap .section_place .contents .txt {  color:#999; }
 
