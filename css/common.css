@@ -214,7 +214,7 @@ body,html {
 }
 
 .section_wrap .info .more a{ display:block; width:100%;
-    border:2px solid #000; height:35px; line-height: 35px; box-sizing: border-box; }
+    border:1px solid #000; height:35px; line-height: 35px; box-sizing: border-box; }
 
 
 
