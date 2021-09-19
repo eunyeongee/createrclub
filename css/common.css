@@ -424,14 +424,9 @@ body,html {
 
 /*section_how_end*/
 
-@media screen and (max-width:1410px) {
+@media screen and (max-width:1000px) {
     
     .pc_only {display:none}
-    
-}
-
-@media screen and (max-width:700px) {
-    
     
     .section{  width:100%; height:100%; padding:0 20px; box-sizing: border-box; }
     
@@ -445,9 +440,9 @@ body,html {
     
     .pc_only { display:none; }
     
-    .section_wrap .info {width:100%; height:100%; }
+    .section_wrap .info {width:100%; height:50%; }
     
-    .section .place {width:100%; margin-top:1rem;}
+    .section .place {width:100%; height:50%; margin-top:1rem;}
     
     .section .place ul { height:100%; }
     
@@ -465,11 +460,9 @@ body,html {
     
     .section_where .place ul li div div span { height:100%; }
     
-    
-    
-    
-    
 }
+
+/*@media screen and (max-width:700px) {}*/
 
 
 
