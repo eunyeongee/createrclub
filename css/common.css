@@ -432,7 +432,7 @@ body,html {
     
     .section_wrap {width:100%; max-width: inherit; flex-direction: column; padding:5rem 0 5rem 0;}
     
-    .section_wrap.we_wrap { padding-top:8rem; }
+    .section_wrap.we_wrap { padding-top:7rem; }
     
     .section_wrap .info .ex { margin-top:1rem; }
     
