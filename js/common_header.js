@@ -20,5 +20,52 @@ $(function () {
 
         }
     );*/
+    
+    var menuBtn = $('#menu_btn');
+    
+    var menuBox = $('.m_menu');
+    
+    /*var arr = new Array();
+    arr = [ 'xi-close','xi-bars' ]
+    
+    menuBtn.click(function(){
+        
+        $.each(arr, function(idx, item){
+        
+        console.log('idx is ' + idx);
+        console.log('item is ' + item);
+    });
+        
+        
+    })*/
+    
+    menuBtn.click(function(){
+        
+        if( $(this).find('a').hasClass("xi-bars") === true){
+            
+            $(this).find('a').hide().attr('class','xi-close').fadeIn(500);
+            
+            menuBox.addClass('active');
+            
+            
+            
+        }else {
+            
+            $(this).find('a').hide().attr('class','xi-bars').fadeIn(500);
+            
+            menuBox.removeClass('active');
+            
+            
+        }
+        
+         
+        
+    })
+       
+     
+    
+
+    
+    /*menuBtn.each()*/
 
 });
