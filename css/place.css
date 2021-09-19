@@ -23,7 +23,7 @@
     src:url(../font/old_photo_studio.woff);
 }
 
-* {margin:0; padding:0; }
+* {margin:0; padding:0; box-sizing: border-box; }
 
 a{
     display:block;
@@ -92,4 +92,11 @@ body,html {
 
 .section_place .box .intro_img_wrap .i_wrap { width:49%; }
 
-
+@media screen and (max-width:1200px) {
+    
+    .wrap {width:100%; padding:0 20px; padding-top:7rem; padding-bottom:8rem; }
+    
+    .section_wrap .section_place {padding-top:5rem;}
+    
+    .section_wrap .section_place .box .box_txt.txt01 p {width:100%;}
+}

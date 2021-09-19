@@ -48,6 +48,10 @@ body,html {
 
 /*header*/
 
+.m_menu {display:none;}
+
+#menu_btn {display:none;}
+
 header{
     width:100%;
     height:85px;
@@ -89,7 +93,7 @@ header>.h_wrap>nav>ul>li {
 }
 header>.h_wrap>nav>ul>li>a {
     padding:0 40px;
-    height:47px;
+    height:45px;
 }
 
 header .h_wrap nav ul li .sub{
@@ -148,6 +152,7 @@ header .h_wrap .side_menu {
     display:flex;
     width:25%;
     height:25px;
+    padding-top:10px;
     
 }
 header .h_wrap .side_menu > ul{
@@ -193,9 +198,28 @@ header .h_wrap .side_menu .sns_menu ul li {
 }
 
 header .h_wrap .side_menu .sns_menu ul li a {
-    width: 25px;
+    width: 30px;
     padding:0 5px;
     border-spacing: inherit;
 }
 
 /*header-end*/
+
+@media screen and (max-width:1000px) {
+    
+    header {height:60px}
+    
+    .pc_nav {display:none;}
+    
+    #menu_btn {display:block;}
+    
+    #menu_btn {width:6%;}
+    
+    #menu_btn a {font-size:1.5em;}
+    
+    header .h_wrap {padding-top:1.5rem;}
+    
+    header .h_wrap .side_menu {display:none; }
+    
+    header .h_wrap .logo{width:130px;}
+}

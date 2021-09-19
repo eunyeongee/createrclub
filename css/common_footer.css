@@ -73,9 +73,7 @@ footer .f_wrap > div {
 footer .f_wrap .f1 {
     max-width:250px;
 }
-footer .f_wrap .f2 {
-    width:
-}
+
 footer .f_wrap .f3 {
     max-width:350px;
 }
@@ -94,7 +92,7 @@ footer .f_wrap .web a{
 }
 
 footer .f_wrap .logo {
-    width:200px;
+    width:190px;
 }
 footer .f_wrap .f2 {
   display:flex;
@@ -125,6 +123,23 @@ footer .address {
 #top a {color:rgba(0 0 0 / 20%);}
 
 #top a:hover {color:#000}
+
+@media screen and (max-width:1000px) {
+    
+    footer .f_wrap {width:100%; padding:0 20px; flex-direction: column; text-align: center; }
+    
+    footer .f_wrap > div {width:100%; margin:0 auto; }
+    
+    footer .f_wrap .f2 {margin-top:2rem;}
+    
+    footer .f_wrap .f2 .company_info { margin-top:2rem; }
+    
+    footer .f_wrap .web { width:50%; margin:0 auto; }
+    
+    footer .f_wrap .logo {width:130px; margin:0 auto; }
+    
+    footer .f_wrap .f3 .costomer_center { margin-top:2rem; padding:0;  }
+}
 
 
 

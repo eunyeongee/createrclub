@@ -23,7 +23,7 @@
     src:url(../font/old_photo_studio.woff);
 }
 
-* {margin:0; padding:0; }
+* {margin:0; padding:0; box-sizing: border-box; }
 
 a{
     display:block;
@@ -154,6 +154,7 @@ body,html {
 .section {
     width:100%;
     background-color:#ffca00;
+    box-sizing: border-box;
 } 
 .section_wrap {
     width:75%;
@@ -223,38 +224,11 @@ body,html {
     background-color:#000;
     color:#ffca00;
 } 
-.section .data{
-    width:60%;
-    max-width:800px;
-    
-}
 
-.section .data ul {
-    display:flex;
-    justify-content: space-between;
-    height:460px;
-}
-.section .data ul li {
-    display:flex;
-    align-items: center;
-    width:33.3%;
-    max-width:250px;
-    border-radius: 20px;
-    margin:0 10px;
-    padding: 0 10px;
-    height:100%;
-    background-color:rgba(255,255,255,0.5);
-}
 
-.section .data ul li div {
-    margin:0 auto;
-}
 .section .data ul li div div {
     
-   
-    text-align: center;
-    
-    
+    text-align: center;    
 }
 
 .section .place ul li div div {
@@ -266,8 +240,12 @@ body,html {
     font-family:'oldPhoto';
 }
 .section .data ul li div div span {
-    line-height: 40px;
-    margin-top:50px;
+    line-height: 1.5;
+    margin-top:1rem;
+    height:180px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
 }
 
 
@@ -313,8 +291,9 @@ body,html {
     font-family:'oldPhoto';
 }
 .section_where .place ul li div div span {
-    line-height: 40px;
-    margin-top:50px;
+    line-height: 1.5;
+    height:180px;
+    margin-top:1rem;
 }
 
 /*section2_where_end*/
@@ -323,8 +302,6 @@ body,html {
 
 
 /*section_what*/
-
-
 
 
 .section_what {
@@ -349,12 +326,18 @@ body,html {
 .section .place ul li {
     width:33.3%;
     display:flex;
-    align-items: center;    
+    align-items: center;   
+    justify-content: center;
     max-width:250px;
     border-radius: 20px;
-    padding:0 15px;
+    padding:15px;
     margin:0 10px;
-    height:100%;
+    height:98%;
+    background:rgba(255 255 255 / 50% )
+}
+
+.section.section_where .place ul li {
+    background:rgba(0 0 0 / 30%);
 }
 
 
@@ -367,17 +350,14 @@ body,html {
 
 /*what_place*/
 
-.section.section_what .place ul li  {
-    
-}
-
 
 .section .place ul li .place_content > div {
 
     text-align: center;
-
-    
+ 
 }
+
+.section.section_how ul li .c3 .icon { width:50%; }
 
 .section_what .place ul .place_content > div> .i_wrap {margin-top:20px;}
 
@@ -410,13 +390,18 @@ body,html {
     margin-top:20px;
     font-size:1.5em;
     font-family:'oldPhoto';
+    
 }
 
+.tit {font-weight: bold; }
+
 .section_what .place ul li .place_content div span {
-    height:130px;
-    line-height: 28px;
-    margin-top:10px;
+    height:150px;
+    line-height: 1.5;
+    margin-top:1rem;
 }
+
+.section.section_how .place .now { margin-top:1rem; text-align: center; line-height: 1.5; }
 
 /*what_place1_end*/
 
@@ -437,51 +422,52 @@ body,html {
 
 
 
-
-/*.section_how .data{
-    width:910px;
-    
-}*/
-
-.section_how .data ul {
-    display:flex;
-    justify-content: space-between;
-    height:460px;
-}
-
-.section_how .data ul li{
-    display:flex;
-    align-items: center;
-    
-}
-.section_how .data ul li div {
-    
-    margin:0 auto;
-    
-    
-    
-}
-
-
-.section_how .data ul li div p {
-    margin-top:50px;
-    line-height: 28px;
-    text-align: center;
-}
-
-.section_how .data ul li .c3 i {
-    display:block;
-    max-width:100px;
-    margin:0 auto;
-}
-
-
-
 /*section_how_end*/
 
 @media screen and (max-width:1410px) {
     
     .pc_only {display:none}
+    
+}
+
+@media screen and (max-width:700px) {
+    
+    
+    .section{  width:100%; height:100%; padding:0 20px; box-sizing: border-box; }
+    
+    .section_wrap {width:100%; max-width: inherit; flex-direction: column; padding:5rem 0 5rem 0;}
+    
+    .section_wrap.we_wrap { padding-top:8rem; }
+    
+    .section_wrap .info .ex { margin-top:1rem; }
+    
+    .follow { display:none; }
+    
+    .pc_only { display:none; }
+    
+    .section_wrap .info {width:100%; height:100%; }
+    
+    .section .place {width:100%; margin-top:1rem;}
+    
+    .section .place ul { height:100%; }
+    
+    .section_wrap .info .more {width:100%; margin-top:1rem;}
+    
+    .section_what .place ul li .place_content div span { line-height: 1.5;  }
+    
+    .section_what .place ul li div .tit { font-size:1em; }
+    
+    .section .data ul li .place_content div .tit { font-size:1em; }
+    
+    .section .place ul li {width:50%;}
+    
+    .section.section_how ul li .c3 .icon {width:50% !important;}
+    
+    .section_where .place ul li div div span { height:100%; }
+    
+    
+    
+    
     
 }
 
