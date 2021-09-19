@@ -39,7 +39,8 @@ $(function () {
         
     })*/
     
-    menuBtn.click(function(){
+    menuBtn.click(function(e){
+        e.preventDefault();
         
         if( $(this).find('a').hasClass("xi-bars") === true){
             
