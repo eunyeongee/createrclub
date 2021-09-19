@@ -96,6 +96,8 @@ body,html {
     
     .section_wrap .section_place .contents .tit { font-size:1.5em;  }
     
+    .section_wrap .section_place .box .box_txt.txt01 .tit {font-size:1.3em;}
+    
     .wrap {width:100%; padding:0 20px; padding-top:7rem; padding-bottom:8rem; }
     
     .section_wrap .section_place {padding-top:5rem;}
