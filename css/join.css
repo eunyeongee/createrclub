@@ -116,10 +116,8 @@ legend{font-size:0;}
     .txt_box.policy_box { margin-top:1rem;}
     
     .sub_tit {margin-top:2rem;}
-
-    /*.txt_box.post .list_wrap li label {width:15%;}
     
-    .txt_box.post .list_wrap li input { font-size:1em; }*/
+    .txt_box.post .list_wrap li input { font-size:1em; }
     
 }
 
@@ -127,7 +125,7 @@ legend{font-size:0;}
     
     .tit {  font-size:1.5em; }
     
-    .txt_box.post .list_wrap li input {width:55%;}
+    .txt_box.post .list_wrap li input {width:45%;}
     
     .txt_box.post .list_wrap li button {width:25%;}
     
