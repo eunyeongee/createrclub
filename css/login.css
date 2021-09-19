@@ -170,6 +170,8 @@ body,html {
 
 @media screen and (max-width:1200px) {
     
+    .tit_wrap .tit {font-size:1.5em; }
+    
     .wrap {width:100%; padding:0 20px; padding-top:5rem; padding-bottom:8rem; }
     
     .wrap .log_wrap {width:100%;}

@@ -125,6 +125,8 @@ legend{font-size:0;}
 
 @media screen and (max-width:600px) {
     
+    .tit {  font-size:1.5em; }
+    
     .txt_box.post .list_wrap li input {width:55%;}
     
     .txt_box.post .list_wrap li button {width:25%;}
