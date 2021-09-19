@@ -264,9 +264,7 @@ header .h_wrap .side_menu .sns_menu ul li a {
     
     #menu_btn {display:block;}
     
-    #menu_btn {width:6%; z-index: 11;}
-    
-    #menu_btn a {font-size:1.5em;}
+    #menu_btn a {font-size:2em;}
     
     /*header .h_wrap {padding-top:1.5rem;}*/
     
