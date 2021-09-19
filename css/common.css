@@ -184,7 +184,7 @@ body,html {
 
 .section_wrap .info .txt .title{
     font-family:'rocket';
-    font-size:1.7em;
+    font-size:1.8em;
 }
 .section_wrap .info .ex{
     line-height: 1.5;
@@ -195,7 +195,7 @@ body,html {
 .section_wrap .info .line {
     
     display:inline;
-    font-size:1.15em;
+    font-size:1.12em;
     background-color:#000;
     color:#ffca00;
     padding:0 5px;
@@ -208,7 +208,7 @@ body,html {
 .section_wrap .info .more {
     width:150px;    
     text-align: center;
-    font-size:18px;
+    font-size:1em;
     
     
 }
@@ -290,7 +290,7 @@ body,html {
     margin-top:20px;
     font-family:'oldPhoto';
 }
-.section_where .place ul li div div span {
+.section .place ul li div div span {
     line-height: 1.5;
     height:180px;
     margin-top:1rem;
@@ -374,17 +374,6 @@ body,html {
 .section_what .place ul li > div > .text {
     margin-top:20px;
 }
-.section_what .place ul li div div .hot_txt {
-    font-family:'oldPhoto';
-    font-weight: bold;
-    font-size: 20px;
-}
-.section_what .place ul .place_content div .text .hot p {
-     font-family:'oldPhoto';
-    font-size:12px;
-    font-weight: bold;
-    color:#fff;
-}
 
 .section_what .place ul li div .tit {
     margin-top:20px;
@@ -442,7 +431,7 @@ body,html {
     
     .section_wrap .info {width:100%; height:50%; }
     
-    .section .place {width:100%; height:50%; margin-top:1rem;}
+    .section .place {width:100%; height:50%; margin-top:1.5rem;}
     
     .section .place ul { height:100%; }
     
@@ -454,11 +443,13 @@ body,html {
     
     .section .data ul li .place_content div .tit { font-size:1em; }
     
-    .section .place ul li {width:50%;}
+    .section .place ul li {width:50%; overflow: hidden;}
     
     .section.section_how ul li .c3 .icon {width:50% !important;}
     
     .section_where .place ul li div div span { height:100%; }
+    
+    .section_wrap .info .more a {height:50px; line-height:50px; }
     
 }
 
