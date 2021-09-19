@@ -258,7 +258,7 @@ header .h_wrap .side_menu .sns_menu ul li a {
     
     
     
-    /*header {height:60px}*/
+    header {height:60px}
     
     .pc_nav {display:none;}
     
@@ -266,7 +266,7 @@ header .h_wrap .side_menu .sns_menu ul li a {
     
     #menu_btn a {font-size:2em;}
     
-    /*header .h_wrap {padding-top:1.5rem;}*/
+    header .h_wrap {padding-top:1.5rem;}
     
     header .h_wrap .side_menu {display:none; }
     

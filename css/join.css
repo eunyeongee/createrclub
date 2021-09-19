@@ -103,7 +103,7 @@ legend{font-size:0;}
 
 .red_txt { display:inline; color:red; }
 
-.back {position:absolute; top:20px; left:20px; font-size:40px; }
+.back {position:absolute; top:20px; left:20px; font-size:30px; }
 
 @media screen and (max-width:1200px) {
     
